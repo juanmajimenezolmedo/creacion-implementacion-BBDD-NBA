@@ -1,4 +1,5 @@
-📋 Descripción del Proyecto
+# Descripción del Proyecto
+
 Sistema de base de datos diseñado para gestionar estadísticas completas de baloncesto profesional (NBA). El proyecto aborda la problemática de centralizar información dispersa sobre equipos, jugadores, partidos y estadísticas, implementando una arquitectura relacional robusta que facilita consultas analíticas complejas.
 
 ## Problemática Identificada
@@ -10,7 +11,8 @@ Sistema de base de datos diseñado para gestionar estadísticas completas de bal
 Base de datos relacional normalizada siguiendo la metodología MERISE, compuesta por 11 tablas interrelacionadas que garantizan integridad referencial y facilitan análisis estadísticos multidimensionales.
 
 
-🗂️ Estructura del Proyecto
+# Estructura del Proyecto
+
 proyectoDbNba/
 │
 ├── 📓 ProyectoDatosBaloncesto.ipynb
@@ -51,8 +53,7 @@ proyectoDbNba/
     ├── data_team_position.py   # INSERT para tabla team_position (30 registros)
     └── data_player_point.py    # INSERT para tabla player_point (189 registros)
 
-
-📊 Esquema de Base de Datos
+# Esquema de Base de Datos
 1) Tablas Principales
 2) TablaDescripciónRegistrosconferenceConferencias Este/Oeste con sus divisiones6teamEquipos NBA vinculados a conferencias30playerJugadores asociados a equipos100stadiumEstadios con ubicación geográfica29faultTipos de falta (técnica, personal, antideportiva)3seasonTemporadas del torneo1gamePartidos con fecha, estadio y temporada102game_teamParticipación de equipos en partidos (ganador, puntos)204player_faultFaltas cometidas por jugadores202team_positionPosición final de equipos por temporada30player_pointPuntos anotados (triples, dobles, libres)189
 
@@ -64,7 +65,7 @@ proyectoDbNba/
 5) Un jugador anota puntos en varios partidos (N:M vía player_point)
 
 
-🚀 Cómo Usar el Proyecto
+# Cómo Usar el Proyecto
 
 ## Paso 1: Configuración Inicial
 - Clonar el repositorio: git clone https://github.com/DavidGallardoDigi/proyectoDbNba.git
@@ -85,7 +86,7 @@ proyectoDbNba/
 ✅ Rendimiento de consultas
 
 
-🛠️ Tecnologías Utilizadas
+# Tecnologías Utilizadas
 
 1) Python 3.11: Lenguaje de programación principal
 2) MySQL 8.0: Sistema gestor de base de datos
@@ -94,7 +95,7 @@ proyectoDbNba/
 5) unittest: Framework de testing
 
 
-👨‍💼 Perfil del Autor
+# Perfil del Autor
 Profesional en transición desde el marketing digital hacia el análisis de datos. Este proyecto demuestra competencias en:
 - Diseño de arquitecturas de bases de datos relacionales
 - Implementación de soluciones con Python y SQL
